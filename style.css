@@ -1,6 +1,5 @@
 body {
     font-family: Open Sans, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: left;
     color: #555;
     margin: 0;
     padding: 0;
@@ -41,11 +40,20 @@ h1,h2 {
     width: 20px;
     padding: 10px 10px 10px 0px;
 }
-
-
-
+.main {
+    max-width: 648px;
+    margin: auto;
+}
+p {
+    font-size: 20px;
+    line-height: 32px;
+}
 a {
     font-weight: 700;
     color: #fd8a24;
     text-decoration: none;
+}
+.cta {
+    font-size: 20px;
+    margin: 30px 0;
 }
